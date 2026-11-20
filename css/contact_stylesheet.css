@@ -86,8 +86,10 @@ button {
 .main-navbar .nav-link {
     color: var(--background) !important;
     font-weight: 400;
-    font-size: 0.98rem;
-    padding: 0.65rem 1.35rem;
+    font-size: 14px;
+    padding: 10px 20px;
+    line-height: 22px;
+    font-family: "Poppins", sans-serif;
     letter-spacing: 0.2px;
 }
 
@@ -105,11 +107,8 @@ button {
     width: 100%;
 }
 
-.main-navbar .navbar-nav .nav-link {
-    padding: 10px 20px !important;
-    font-size: 14px;
-    line-height: 22px;
-    font-family: "Poppins", sans-serif;
+.main-navbar .nav-link {
+    padding: 12px 25px;
 }
 
 .Feedback-container {
