@@ -190,17 +190,20 @@ input.Feedback-input {
 }
 
 .contact-container h1 {
+    font-family: "The Seasons", Georgia, serif;
     font-size: 32px;
-    font-weight: bold;
-    margin-bottom: 18px;
+    font-weight: 600;
+    line-height: 1.1;
+    margin-bottom: 24px;
 }
 
 .contact-information {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    max-width: 560px;
+    max-width: 760px;
     width: 100%;
+    gap: 16px;
     margin: 0 auto;
     text-align: center;
 }
