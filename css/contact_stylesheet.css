@@ -80,7 +80,7 @@ button {
 
 .main-navbar {
     background-color: var(--nav-brown);
-    padding: 0.35rem 0;
+    padding: 0;
 }
 
 .main-navbar .nav-link {
@@ -106,7 +106,8 @@ button {
 }
 
 .main-navbar .nav-link {
-    padding: 12px 25px;
+    padding: 10px 24px;
+    line-height: 1.5;
 }
 
 .Feedback-container {
