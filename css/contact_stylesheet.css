@@ -280,3 +280,22 @@ a:focus-visible {
     outline: 2px solid var(--heading);
     outline-offset: 2px;
 }
+
+.main-navbar {
+    background-color: #615341;
+    padding: 0 !important;
+}
+
+.main-navbar .navbar-nav {
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style: none;
+}
+
+.main-navbar .navbar-nav .nav-link {
+    display: block;
+    padding: 10px 20px !important;
+    font-size: 14px !important;
+    line-height: 22px !important;
+    font-family: "Poppins", sans-serif;
+}
