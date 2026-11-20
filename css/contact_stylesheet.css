@@ -1,3 +1,4 @@
+
 :root {
     --background: #DCD3C1;
     --heading: #615341;
@@ -16,7 +17,7 @@
 body {
     background-color: var(--background);
     margin: 0;
-    text-align: center;
+    font-family: var(--body-font);
 }
 
 h1 {
@@ -66,13 +67,13 @@ button {
 }
 
 .brand-hanger-img {
-    height: 155px;
+    height: 110px;
     width: auto;
     display: block;
 }
 
 .cart-icon-img {
-    height: 68px;
+    height: 45px;
     width: auto;
     display: block;
 }
@@ -96,6 +97,7 @@ button {
     text-decoration: underline;
     outline: 2px solid var(--background);
 }
+
 .main-navbar .navbar-nav {
     display: flex;
     flex-direction: row;
@@ -157,7 +159,7 @@ textarea.Feedback-input {
 }
 
 input.Feedback-input {
-    height: 30px;
+    height: 35px;
 }
 
 .submit-button {
@@ -169,12 +171,12 @@ input.Feedback-input {
 
 .submit-button img {
     width: 150px;
-    height: 150px;
+    height: auto;
     display: block;
 }
 
 .contact-container {
-    margin-top: -30px;
+    margin-top: 20px;
     text-align: center;
 }
 
@@ -188,14 +190,17 @@ input.Feedback-input {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    max-width: 390px;
+    max-width: 750px;
     width: 100%;
     margin: 0 auto;
+    padding: 0 20px;
+    gap: 20px;
     text-align: center;
 }
 
 .contact-item {
     flex: 1;
+    min-width: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -222,14 +227,16 @@ input.Feedback-input {
     background-color: var(--nav-brown);
     color: var(--background);
     margin-top: 4.5rem;
-    padding: 2.5rem 0;
+    padding: 3rem 0;
     overflow: hidden;
+    text-align: left;
 }
 
 .footer-logo-img {
-    height: 310px;
-    width: auto;
-    margin: -115px -55px -115px -65px;
+    width: 100px;
+    height: auto;
+    margin: 0;
+    flex-shrink: 0;
 }
 
 .footer-heading {
@@ -254,10 +261,53 @@ input.Feedback-input {
     text-decoration: underline;
 }
 
+.site-footer .row {
+    align-items: center;
+}
+
+.site-footer .col-md-6,
+.site-footer .col-md-3 {
+    text-align: left;
+}
+
+.site-footer .footer-text {
+    line-height: 1.6;
+}
+
 input:focus,
 textarea:focus,
 button:focus-visible,
 a:focus-visible {
     outline: 2px solid var(--heading);
     outline-offset: 2px;
+}
+
+@media (max-width: 767px) {
+    .main-navbar .navbar-nav {
+        flex-direction: column;
+    }
+
+    .Feedback-container,
+    form {
+        width: 90%;
+        max-width: 380px;
+    }
+
+    .contact-information {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .contact-item {
+        width: 100%;
+    }
+
+    .site-footer {
+        padding: 2.5rem 0;
+    }
+
+    .footer-logo-img {
+        width: 80px;
+    }
 }
