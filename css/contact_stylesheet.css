@@ -10,7 +10,7 @@
     --btn-hover: #463B2E;
     --pastel-blue: #C5D4E8;
 
-    --heading-font: 'The Seasons', serif;
+    --heading-font: 'Cormorant Garamond', serif;
     --body-font: 'Poppins', sans-serif;
 }
 
@@ -87,7 +87,7 @@ button {
     color: var(--background) !important;
     font-weight: 400;
     font-size: 0.98rem;
-    padding: 0.65rem 1.35rem;
+    padding: 12px 25px;
     letter-spacing: 0.2px;
 }
 
@@ -104,10 +104,6 @@ button {
     justify-content: center;
     align-items: center;
     width: 100%;
-}
-
-.main-navbar .nav-link {
-    padding: 12px 25px;
 }
 
 .Feedback-container {
@@ -223,55 +219,40 @@ input.Feedback-input {
     text-align: center;
 }
 
-.site-footer {
-    background-color: var(--nav-brown);
-    color: var(--background);
+.bg-darkbrown {
+    background-color: #615341 !important;
+}
+
+.text-lightbrown {
+    color: #D9D0BA !important;
+}
+
+#footer {
     margin-top: 4.5rem;
-    padding: 3rem 0;
-    overflow: hidden;
     text-align: left;
 }
 
-.footer-logo-img {
-    width: 100px;
-    height: auto;
-    margin: 0;
-    flex-shrink: 0;
+#footer p {
+    color: inherit;
 }
 
-.footer-heading {
-    color: var(--pastel-blue);
-    font-weight: 600;
-    font-size: 0.85rem;
-    letter-spacing: 0.4px;
-    margin-bottom: 0.45rem;
+#footer .text-white {
+    color: #FFFFFF !important;
 }
 
-.footer-text,
-.site-footer a {
-    color: var(--background);
-    font-weight: 300;
-    font-size: 0.9rem;
+#footer a {
+    color: #D9D0BA !important;
     text-decoration: none;
 }
 
-.site-footer a:hover,
-.site-footer a:focus {
-    color: #FFFFFF;
+#footer a:hover,
+#footer a:focus {
+    color: #FFFFFF !important;
     text-decoration: underline;
 }
 
-.site-footer .row {
-    align-items: center;
-}
-
-.site-footer .col-md-6,
-.site-footer .col-md-3 {
-    text-align: left;
-}
-
-.site-footer .footer-text {
-    line-height: 1.6;
+#footer .row {
+    align-items: flex-start;
 }
 
 input:focus,
@@ -302,12 +283,5 @@ a:focus-visible {
     .contact-item {
         width: 100%;
     }
-
-    .site-footer {
-        padding: 2.5rem 0;
-    }
-
-    .footer-logo-img {
-        width: 80px;
-    }
 }
+
