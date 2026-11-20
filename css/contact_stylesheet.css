@@ -116,8 +116,11 @@ button {
 }
 
 .Feedback-container h1 {
+    font-family: "The Seasons", Georgia, serif;
     font-size: 32px;
-    margin-bottom: 0;
+    font-weight: 600;
+    line-height: 1.1;
+    margin-bottom: 4px;
 }
 
 .Feedback-container h2 {
@@ -182,7 +185,7 @@ input.Feedback-input {
 }
 
 .contact-container {
-    margin-top: 65px;
+    margin-top: 75px;
     text-align: center;
 }
 
