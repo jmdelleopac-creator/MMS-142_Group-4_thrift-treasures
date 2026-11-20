@@ -80,7 +80,7 @@ button {
 
 .main-navbar {
     background-color: var(--nav-brown);
-    padding: 0;
+    padding: 0 !important;
 }
 
 .main-navbar .nav-link {
@@ -105,9 +105,11 @@ button {
     width: 100%;
 }
 
-.main-navbar .nav-link {
-    padding: 10px 24px;
-    line-height: 1.5;
+.main-navbar .navbar-nav .nav-link {
+    padding: 10px 20px !important;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: "Poppins", sans-serif;
 }
 
 .Feedback-container {
