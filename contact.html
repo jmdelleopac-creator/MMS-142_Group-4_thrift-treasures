@@ -1,119 +1,143 @@
+
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Contact Us | Thrift Treasures</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/contact_stylesheet.css">
     <script src="contact_javascript.js" defer></script>
 </head>
 
-  <body>
+<body>
     <header>
-    <div class="top-brand-bar">
-      <div class="container d-flex justify-content-between align-items-center">
-        <!-- Hamburger Icon Image -->
-        <button class="header-icon-btn" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation menu">
-          <img src="images/menu-icon.png" alt="Menu" class="cart-icon-img">
-        </button>
+        <div class="top-brand-bar">
+            <div class="container d-flex justify-content-between align-items-center">
+                <button class="header-icon-btn" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#mainNav"
+                    aria-controls="mainNav"
+                    aria-expanded="true"
+                    aria-label="Toggle navigation menu">
+                    <img src="images/menu-icon.png" alt="Menu" class="cart-icon-img">
+                </button>
 
-        <!-- Center Logo -->
-        <a href="index.html" class="brand-lockup">
-          <img src="images/logo.png" alt="Thrift Treasures" class="brand-hanger-img">
-        </a>
+                <a href="index.html" class="brand-lockup">
+                    <img src="images/logo.png" alt="Thrift Treasures" class="brand-hanger-img">
+                </a>
 
-        <!-- Cart Icon Image -->
-        <a href="#productOrderForm" class="header-icon-btn" aria-label="Jump to order section">
-          <img src="images/cart-icon.png" alt="Shopping cart" class="cart-icon-img">
-        </a>
-      </div>
-    </div>
-
-    <nav class="navbar navbar-expand-md main-navbar" aria-label="Primary Navigation">
-      <div class="container justify-content-center">
-        <div class="collapse navbar-collapse justify-content-center show" id="mainNav">
-          <ul class="navbar-nav gap-md-4 text-center">
-            <li class="nav-item"><a class="nav-link" href="product1.html">Products</a></li>
-            <li class="nav-item"><a class="nav-link" href="index.html">About Us</a></li>
-            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-            <li class="nav-item"><a class="nav-link" href="privacy.html">Privacy &amp; Terms</a></li>
-          </ul>
+                <a href="products.html" class="header-icon-btn" aria-label="View products">
+                    <img src="images/cart-icon.png" alt="Shopping cart" class="cart-icon-img">
+                </a>
+            </div>
         </div>
-      </div>
-    </nav>
-  </header>
-  
-  <main>
-    <div class="Feedback-container">
-      <h1> Your Feedback Matters</h1>
-       <h2>Help us improve our products and services!</h2>
-       </div>  
 
-   <form id="feedbackForm">
-     <div class="form-group">
-      <textarea id="feedback" name="feedback" placeholder="Please share your feedback here..." class="Feedback-input" required></textarea>
-    </div>
+        <nav class="navbar navbar-expand-md main-navbar" aria-label="Primary Navigation">
+            <div class="container justify-content-center">
+                <div class="collapse navbar-collapse justify-content-center show" id="mainNav">
+                    <ul class="navbar-nav gap-md-4 text-center">
+                        <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#about">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="privacy.html">Privacy &amp; Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-    <div class="form-group">
-      <input type="email" id="email" name="Email" placeholder="Please enter your email address..." class="Feedback-input" required>
-    </div>
-
-    <button type="submit" class="submit-button">
-      <img src="images/button_submit.png" alt="Submit Button">
-    </button>
-    </form>
-    
-  <div class="contact-container">
-    <h1> Get in Touch With Us</h1>
-  </div>
-
-  <div class="contact-information">
-    <div class="contact-item">
-      <img src="icon_email.png" alt="Email Address">
-      <p>hello@examplewebsite142.com</p>
-    </div>
-
-    <div class="contact-item">
-      <img src="icon_phone.png" alt="Phone Number">
-      <p>+63 143 511 1208</p>
-    </div>
-
-    <div class="contact-item">
-      <img src="icon_facebook.png" alt="Facebook">
-      <p>https://facebook.com/thrift. treasures</p>
-    </div>
-  </div>
-  </main>
-  
-  <footer class="site-footer">
-    <div class="container">
-      <div class="row g-4 justify-content-between align-items-center">
-        <div class="col-12 col-md-5 d-flex align-items-center gap-3">
-          <img src="images/logo-footer.png" alt="Thrift Treasures footer logo" class="footer-logo-img">
-          <div>
-            <p class="footer-heading">THRIFT TREASURES</p>
-            <p class="footer-text mb-0">Notes on new collections, material studies, and the objects that inform our work.</p>
-          </div>
+    <main>
+        <div class="Feedback-container">
+            <h1>Your Feedback Matters</h1>
+            <h2>Help us improve our products and services!</h2>
         </div>
-        <div class="col-6 col-md-3">
-          <p class="footer-heading">INFORMATION</p>
-          <ul class="list-unstyled mb-0">
-            <li class="mb-1"><a href="product1.html">Products</a></li>
-            <li><a href="index.html">About Us</a></li>
-          </ul>
+
+        <form id="feedbackForm">
+            <div class="form-group">
+                <textarea
+                    id="feedback"
+                    name="feedback"
+                    placeholder="Please share your feedback here..."
+                    class="Feedback-input"
+                    aria-label="Your feedback"
+                    required></textarea>
+            </div>
+
+            <div class="form-group">
+                <input
+                    type="email"
+                    id="email"
+                    name="Email"
+                    placeholder="Please enter your email address..."
+                    class="Feedback-input"
+                    aria-label="Your email address"
+                    required>
+            </div>
+
+            <button type="submit" class="submit-button">
+                <img src="images/button_submit.png" alt="Submit Button">
+            </button>
+        </form>
+
+        <div class="contact-container">
+            <h1>Get in Touch With Us</h1>
         </div>
-        <div class="col-6 col-md-3">
-          <p class="footer-heading">SUPPORT</p>
-          <ul class="list-unstyled mb-0">
-            <li class="mb-1"><a href="contact.html">Contact Us</a></li>
-            <li><a href="privacy.html">Privacy and Terms</a></li>
-          </ul>
+
+        <div class="contact-information">
+            <div class="contact-item">
+                <img src="images/icon_email.png" alt="Email Address">
+                <p>hello@examplewebsite142.com</p>
+            </div>
+
+            <div class="contact-item">
+                <img src="images/icon_phone.png" alt="Phone Number">
+                <p>+63 143 511 1208</p>
+            </div>
+
+            <div class="contact-item">
+                <img src="images/icon_facebook.png" alt="Facebook">
+                <p>https://facebook.com/thrift.treasures</p>
+            </div>
         </div>
-      </div>
-    </div>
-  </footer>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row g-4 justify-content-between align-items-center">
+                <div class="col-12 col-md-6 d-flex align-items-center gap-3">
+                    <img src="images/logo-footer.png" alt="Thrift Treasures footer logo" class="footer-logo-img">
+
+                    <div>
+                        <p class="footer-heading">THRIFT TREASURES</p>
+                        <p class="footer-text mb-0">
+                            Notes on new collections, material studies,
+                            and the objects that inform our work.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3">
+                    <p class="footer-heading">INFORMATION</p>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-1"><a href="products.html">Products</a></li>
+                        <li><a href="index.html#about">About Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-3">
+                    <p class="footer-heading">SUPPORT</p>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-1"><a href="contact.html">Contact Us</a></li>
+                        <li><a href="privacy.html">Privacy and Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+</body>
 </html>
