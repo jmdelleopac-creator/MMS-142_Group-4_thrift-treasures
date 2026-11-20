@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Everyday Comfort Tee | Thrift Treasures</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="top-brand-bar">
+      <div class="container d-flex justify-content-between align-items-center">
+        <!-- Hamburger Icon Image -->
+        <button class="header-icon-btn" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation menu">
+          <img src="images/menu-icon.png" alt="Menu" class="cart-icon-img">
+        </button>
+
+        <!-- Center Logo -->
+        <a href="index.html" class="brand-lockup">
+          <img src="images/logo.png" alt="Thrift Treasures" class="brand-hanger-img">
+        </a>
+
+        <!-- Cart Icon Image -->
+        <a href="#productOrderForm" class="header-icon-btn" aria-label="Jump to order section">
+          <img src="images/cart-icon.png" alt="Shopping cart" class="cart-icon-img">
+        </a>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-md main-navbar" aria-label="Primary Navigation">
+      <div class="container justify-content-center">
+        <div class="collapse navbar-collapse justify-content-center show" id="mainNav">
+          <ul class="navbar-nav gap-md-4 text-center">
+            <li class="nav-item"><a class="nav-link" href="product1.html">Products</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="privacy.html">Privacy &amp; Terms</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container my-5">
+    <div class="row g-4 g-lg-5 align-items-start">
+      <!-- Left Column: Product Image -->
+      <div class="col-12 col-md-6">
+        <div class="product-image-box">
+          <img src="images/everyday-comfort-tee.png" alt="Everyday Comfort Tee in warm beige with minimalist chest emblem" class="img-fluid rounded">
+        </div>
+      </div>
+
+      <!-- Right Column: Product Info & Order Form -->
+      <div class="col-12 col-md-6">
+        <h1 id="productName" class="display-6 mb-0">Everyday Comfort Tee</h1>
+        <p class="mb-3">Average Star</p>
+        <p id="productPrice" class="fs-3 fw-bold mb-4">&#8369; 299</p>
+
+        <form id="productOrderForm" novalidate>
+          <!-- Color Selection: Beige, Blue, Charcoal -->
+          <fieldset class="mb-4">
+            <legend class="fs-6 fw-normal mb-2">Color: <strong class="fw-semibold">Select a Color</strong></legend>
+            <div class="d-flex gap-4">
+              <label class="color-option text-center">
+                <input type="radio" name="shirtColor" value="Beige" checked>
+                <span class="swatch-circle" style="background-color: #A98A6C;" aria-hidden="true"></span>
+                <span class="swatch-label">Beige</span>
+              </label>
+
+              <label class="color-option text-center">
+                <input type="radio" name="shirtColor" value="Blue">
+                <span class="swatch-circle" style="background-color: #7E92A8;" aria-hidden="true"></span>
+                <span class="swatch-label">Blue</span>
+              </label>
+
+              <label class="color-option text-center">
+                <input type="radio" name="shirtColor" value="Charcoal">
+                <span class="swatch-circle" style="background-color: #4F4F4F;" aria-hidden="true"></span>
+                <span class="swatch-label">Charcoal</span>
+              </label>
+            </div>
+          </fieldset>
+
+          <!-- Size Selection -->
+          <fieldset class="mb-4">
+            <legend class="fs-6 fw-normal mb-2">Size: <strong class="fw-semibold">Select a Size</strong></legend>
+            <div class="d-flex flex-wrap gap-2">
+              <label class="size-option">
+                <input type="radio" name="shirtSize" value="XS">
+                <span class="size-btn">XS</span>
+              </label>
+              <label class="size-option">
+                <input type="radio" name="shirtSize" value="S">
+                <span class="size-btn">S</span>
+              </label>
+              <label class="size-option">
+                <input type="radio" name="shirtSize" value="M" checked>
+                <span class="size-btn">M</span>
+              </label>
+              <label class="size-option">
+                <input type="radio" name="shirtSize" value="L">
+                <span class="size-btn">L</span>
+              </label>
+              <label class="size-option">
+                <input type="radio" name="shirtSize" value="XL">
+                <span class="size-btn">XL</span>
+              </label>
+            </div>
+          </fieldset>
+
+          <!-- Quantity -->
+          <div class="mb-4 d-flex align-items-center justify-content-md-end gap-2">
+            <label for="shirtQuantity" class="mb-0">Quantity:</label>
+            <select id="shirtQuantity" name="shirtQuantity" class="form-select w-auto quantity-select">
+              <option value="1" selected>1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+
+          <!-- Buttons -->
+          <div class="d-grid gap-2">
+            <a href="order-everyday-comfort-tee.html" class="btn btn-order-now d-flex align-items-center justify-content-center">ORDER NOW</a>
+            <button type="button" id="addToBagBtn" class="btn btn-add-bag">ADD TO BAG</button>
+          </div>
+
+          <div id="orderFeedback" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Bottom Description & Details Card -->
+    <section class="details-card mt-5" aria-labelledby="descHeading">
+      <div class="row g-4">
+        <div class="col-12 col-md-7">
+          <h2 id="descHeading" class="details-heading">Description:</h2>
+          <p class="mb-0">
+            An easygoing wardrobe essential crafted for laid-back days and effortless layering. Made from soft, breathable cotton with a subtle chest detail, the Everyday Comfort Tee pairs relaxed versatility with all-day wearability.
+          </p>
+        </div>
+        <div class="col-12 col-md-5">
+          <h2 class="details-heading">Product details</h2>
+          <ul class="details-list mb-0">
+            <li><strong>Color:</strong> Beige, Blue, Charcoal</li>
+            <li>Sizes: XS&ndash;XL</li>
+            <li>Fit: Regular</li>
+            <li>Material: Cotton</li>
+            <li>Condition: Like new</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row g-4 justify-content-between align-items-center">
+        <div class="col-12 col-md-5 d-flex align-items-center gap-3">
+          <img src="images/logo-footer.png" alt="Thrift Treasures footer logo" class="footer-logo-img">
+          <div>
+            <p class="footer-heading">THRIFT TREASURES</p>
+            <p class="footer-text mb-0">Notes on new collections, material studies, and the objects that inform our work.</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <p class="footer-heading">INFORMATION</p>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-1"><a href="product1.html">Products</a></li>
+            <li><a href="index.html">About Us</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-3">
+          <p class="footer-heading">SUPPORT</p>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-1"><a href="contact.html">Contact Us</a></li>
+            <li><a href="privacy.html">Privacy and Terms</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
