@@ -91,7 +91,7 @@ button {
     color: var(--background) !important;
     font-weight: 400;
     font-size: 0.98rem;
-    padding: 12px 25px;
+    padding: 12px 12px;
     letter-spacing: 0.2px;
 }
 
@@ -108,6 +108,12 @@ button {
     justify-content: center;
     align-items: center;
     width: 100%;
+}
+
+@media (min-width: 768px) {
+    .main-navbar .navbar-nav {
+        column-gap: 3rem !important;
+    }
 }
 
 .Feedback-container {
