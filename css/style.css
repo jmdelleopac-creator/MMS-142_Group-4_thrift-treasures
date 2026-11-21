@@ -12592,39 +12592,42 @@ h1, .h1,
 }
 
 .site-footer {
-  background-color: var(--nav-brown);
-  color: var(--bg-cream);
-  margin-top: 4.5rem;
-  padding: 2.5rem 0;
-  overflow: hidden;
+    background-color: #615341;
+    color: #d9d0ba;
+    margin-top: 4.5rem;
+    padding: 2.5rem 0;
+    overflow: hidden;
 }
 
 .footer-logo-img {
-  height: 310px;
-  width: auto;
-  margin: -115px -55px -115px -65px;
+    display: block;
+    height: 310px;
+    width: auto;
+    margin: -115px -55px -115px -65px;
+    flex-shrink: 0;
 }
 
 .footer-heading {
-  color: var(--pastel-blue);
-  font-weight: 600;
-  font-size: 0.85rem;
-  letter-spacing: 0.4px;
-  margin-bottom: 0.45rem;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 0.85rem;
+    letter-spacing: 0.4px;
+    margin-bottom: 0.45rem;
 }
 
 .footer-text,
 .site-footer a {
-  color: var(--bg-cream);
-  font-weight: 300;
-  font-size: 0.9rem;
-  text-decoration: none;
+    color: #d9d0ba;
+    font-weight: 300;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    text-decoration: none;
 }
 
 .site-footer a:hover,
 .site-footer a:focus {
-  color: #ffffff;
-  text-decoration: underline;
+    color: #ffffff;
+    text-decoration: underline;
 }
 
 /* Index Page Helpers */
