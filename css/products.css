@@ -91,5 +91,25 @@
     margin: auto 0 8px;
 }
 
+
 .products-buy {
     display: block;
+    width: 100%;
+    padding: 8px 10px;
+    background-color: #7F94A8;
+    color: #FFFFFF !important;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.79rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none !important;
+}
+
+.products-buy:hover,
+.products-buy:focus-visible {
+    background-color: #627C95;
+    color: #FFFFFF !important;
+    text-decoration: none !important;
+}
