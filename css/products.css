@@ -1,0 +1,95 @@
+.products-page {
+    background-color: #d9d0ba;
+}
+
+.products-main {
+    min-height: 590px;
+    padding: 65px 24px 115px;
+}
+
+.products-hero,
+.products-arrivals {
+    width: 100%;
+    max-width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.products-banner {
+    display: block;
+    width: 100%;
+    aspect-ratio: 2.55 / 1;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+}
+
+.products-arrivals {
+    margin-top: 55px;
+}
+
+.products-title {
+    margin: 0 0 25px;
+    color: #615341;
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-weight: 600;
+    font-size: clamp(1.8rem, 3vw, 2.25rem);
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: clamp(20px, 6vw, 82px);
+}
+
+.products-item {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    text-align: left;
+    color: #615341;
+}
+
+.products-image-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    padding: 8px;
+    background: #fff;
+    border: 1px solid #ad9e8b;
+    border-radius: 9px;
+    overflow: hidden;
+}
+
+.products-image-link img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.products-item h2 {
+    margin: 10px 0 0;
+    font-family: "Cormorant Garamond", Georgia, serif;
+    color: #615341;
+    font-size: clamp(1.2rem, 2.2vw, 1.55rem);
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.products-collection {
+    color: #615341;
+    font-size: 0.87rem;
+    margin: 0 0 8px;
+}
+
+.products-price {
+    color: #615341;
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin: auto 0 8px;
+}
+
+.products-buy {
+    display: block;
