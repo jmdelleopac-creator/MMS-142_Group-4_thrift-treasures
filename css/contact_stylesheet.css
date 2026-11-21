@@ -1,16 +1,17 @@
 
 :root {
-    --background: #DCD3C1;
+    --background: #D9D0BA;
     --heading: #615341;
     --text: #A98A6C;
     --input-background: #FFFFFF;
 
-    --nav-brown: #5C4E3E;
-    --icon-brown: #756452;
+    --nav-brown: #615341;
+    --icon-brown: #615341;
     --btn-hover: #463B2E;
-    --pastel-blue: #C5D4E8;
+    --blue: #7F94A8;
+    --pastel-blue: #C3D3EB;
 
-    --heading-font: 'Cormorant Garamond', serif;
+    --heading-font: 'The Seasons' 'Cormorant Garamond', serif;
     --body-font: 'Poppins', sans-serif;
 }
 
