@@ -41,6 +41,7 @@ button {
 .top-brand-bar {
     background-color: var(--background);
     height: 82px;
+    padding: 0 1.5rem;
     display: flex;
     align-items: center;
     overflow: hidden;
