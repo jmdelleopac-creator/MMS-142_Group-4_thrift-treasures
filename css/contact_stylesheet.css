@@ -229,45 +229,47 @@ input.Feedback-input {
 
 
 #footer.site-footer {
+    margin-top: 1.5rem;
+    padding: 2.5rem 0;
     background-color: var(--nav-brown);
     color: var(--background);
-    margin-top: 4.5rem;
-    padding: 2.5rem 0;
     text-align: left;
     overflow: hidden;
 }
 
-#footer .footer-logo-img {
+#footer.site-footer .row {
+    align-items: center;
+}
+
+#footer.site-footer .footer-logo-img {
+    display: block;
     height: 310px;
     width: auto;
     margin: -115px -55px -115px -65px;
     flex-shrink: 0;
 }
 
-#footer .footer-heading {
-    color: var(--pastel-blue);
-    font-weight: 600;
+#footer.site-footer .footer-heading {
+    color: var(--pastel-blue) !important;
     font-size: 0.85rem;
+    font-weight: 600;
     letter-spacing: 0.4px;
     margin-bottom: 0.45rem;
 }
 
-#footer .footer-text,
-#footer a {
-    color: var(--background);
-    font-weight: 300;
+#footer.site-footer .footer-text,
+#footer.site-footer a {
+    color: var(--background) !important;
     font-size: 0.9rem;
+    font-weight: 300;
+    line-height: 1.6;
     text-decoration: none;
 }
 
-#footer a:hover,
-#footer a:focus {
-    color: #FFFFFF;
+#footer.site-footer a:hover,
+#footer.site-footer a:focus {
+    color: #FFFFFF !important;
     text-decoration: underline;
-}
-
-#footer .row {
-    align-items: center;
 }
 
 input:focus,
