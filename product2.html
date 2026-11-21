@@ -9,38 +9,43 @@
 </head>
 <body>
 
-  <header>
-    <div class="top-brand-bar">
-      <div class="container d-flex justify-content-between align-items-center">
-        <!-- Hamburger Icon Image -->
-        <button class="header-icon-btn" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation menu">
-          <img src="images/menu-icon.png" alt="Menu" class="cart-icon-img">
+<header class="bg-lightbrown py-3 px-4">
+    <div class="container d-flex align-items-center justify-content-between">
+
+        <button class="btn p-0 border-0" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mainNav"
+                aria-controls="mainNav"
+                aria-expanded="true"
+                aria-label="Toggle navigation menu">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="28" height="28" fill="#615341" aria-hidden="true">
+                <rect x="96" y="128" width="448" height="64" rx="32"/>
+                <rect x="96" y="288" width="448" height="64" rx="32"/>
+                <rect x="96" y="448" width="448" height="64" rx="32"/>
+            </svg>
         </button>
 
-        <!-- Center Logo -->
-        <a href="index.html" class="brand-lockup">
-          <img src="images/logo.png" alt="Thrift Treasures" class="brand-hanger-img">
+        <a href="index.html" class="text-decoration-none text-darkbrown font-serif fs-3 lh-1 text-center">
+            <img src="images/logo.png" alt="Thrift Treasures Logo" style="width: 100px; height: auto">
         </a>
 
-        <!-- Cart Icon Image -->
-        <a href="#productOrderForm" class="header-icon-btn" aria-label="Jump to order section">
-          <img src="images/cart-icon.png" alt="Shopping cart" class="cart-icon-img">
+        <a href="#productOrderForm" aria-label="Jump to order section">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="28" height="28" aria-hidden="true">
+                <path fill="#615341" d="M24 48C10.7 48 0 58.7 0 72C0 85.3 10.7 96 24 96L69.3 96C73.2 96 76.5 98.8 77.2 102.6L129.3 388.9C135.5 423.1 165.3 448 200.1 448L456 448C469.3 448 480 437.3 480 424C480 410.7 469.3 400 456 400L200.1 400C188.5 400 178.6 391.7 176.5 380.3L171.4 352L475 352C505.8 352 532.2 330.1 537.9 299.8L568.9 133.9C572.6 114.2 557.5 96 537.4 96L124.7 96L124.3 94C119.5 67.4 96.3 48 69.2 48L24 48zM208 576C234.5 576 256 554.5 256 528C256 501.5 234.5 480 208 480C181.5 480 160 501.5 160 528C160 554.5 181.5 576 208 576zM432 576C458.5 576 480 554.5 480 528C480 501.5 458.5 480 432 480C405.5 480 384 501.5 384 528C384 554.5 405.5 576 432 576z"/>
+            </svg>
         </a>
-      </div>
+
     </div>
+</header>
 
-    <nav class="navbar navbar-expand-md main-navbar" aria-label="Primary Navigation">
-      <div class="container justify-content-center">
-        <div class="collapse navbar-collapse justify-content-center show" id="mainNav">
-          <ul class="navbar-nav gap-md-4 text-center">
-            <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
-            <li class="nav-item"><a class="nav-link" href="index.html">About Us</a></li>
-            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-            <li class="nav-item"><a class="nav-link" href="privacy.html">Privacy &amp; Terms</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+<nav class="bg-darkbrown py-2 collapse show" id="mainNav" aria-label="Primary Navigation">
+    <div class="container d-flex flex-wrap justify-content-center gap-4 gap-md-5 small">
+        <a href="products.html" class="text-decoration-none text-lightbrown">Products</a>
+        <a href="index.html#about" class="text-decoration-none text-lightbrown">About Us</a>
+        <a href="contact.html" class="text-decoration-none text-lightbrown">Contact</a>
+        <a href="privacy.html" class="text-decoration-none text-lightbrown">Privacy &amp; Terms</a>
+    </div>
+</nav>
   </header>
 
   <main class="container my-5">
