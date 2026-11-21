@@ -227,32 +227,47 @@ input.Feedback-input {
     color: #D9D0BA !important;
 }
 
-#footer {
+
+#footer.site-footer {
+    background-color: var(--nav-brown);
+    color: var(--background);
     margin-top: 4.5rem;
+    padding: 2.5rem 0;
     text-align: left;
+    overflow: hidden;
 }
 
-#footer p {
-    color: inherit;
+#footer .footer-logo-img {
+    height: 310px;
+    width: auto;
+    margin: -115px -55px -115px -65px;
+    flex-shrink: 0;
 }
 
-#footer .text-white {
-    color: #FFFFFF !important;
+#footer .footer-heading {
+    color: var(--pastel-blue);
+    font-weight: 600;
+    font-size: 0.85rem;
+    letter-spacing: 0.4px;
+    margin-bottom: 0.45rem;
 }
 
+#footer .footer-text,
 #footer a {
-    color: #D9D0BA !important;
+    color: var(--background);
+    font-weight: 300;
+    font-size: 0.9rem;
     text-decoration: none;
 }
 
 #footer a:hover,
 #footer a:focus {
-    color: #FFFFFF !important;
+    color: #FFFFFF;
     text-decoration: underline;
 }
 
 #footer .row {
-    align-items: flex-start;
+    align-items: center;
 }
 
 input:focus,
