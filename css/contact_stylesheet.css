@@ -21,9 +21,11 @@ body {
     font-family: var(--body-font);
 }
 
-h1 {
-    font-family: var(--heading-font);
-    font-weight: bold;
+h1,
+.Feedback-container h1,
+.contact-container h1 {
+    font-family: var(--heading-font) !important;
+    font-weight: 700;
     color: var(--heading);
 }
 
