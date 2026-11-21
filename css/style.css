@@ -12725,8 +12725,9 @@ nav.bg-darkbrown.py-2 > .container > a {
     font-weight: 400;
     letter-spacing: 0.2px;
     line-height: 1.5;
+}
 
-  header.bg-lightbrown.py-3.px-4 {
+header.bg-lightbrown.py-3.px-4 {
     height: 82px;
     padding-top: 0 !important;
     padding-bottom: 0 !important;
