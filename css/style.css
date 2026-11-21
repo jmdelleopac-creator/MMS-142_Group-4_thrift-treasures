@@ -12736,4 +12736,10 @@ header.bg-lightbrown.py-3.px-4 {
     overflow: hidden;
 }
 
+.product-detail-page {
+    --bg-cream: #D9D0BA;
+    --nav-brown: #615341;
+    --text-brown: #615341;
+}
+
 /*# sourceMappingURL=custom.css.map */
