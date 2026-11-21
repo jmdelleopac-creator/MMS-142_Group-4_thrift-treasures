@@ -12591,52 +12591,77 @@ h1, .h1,
   margin-bottom: 0.2rem;
 }
 
-.site-footer {
-    background-color: #615341;
-    color: #d9d0ba;
-    margin-top: 4.5rem;
-    padding: 2.5rem 0;
-    overflow: hidden;
+
+.site-footer--consistent {
+  background-color: #615341;
+  color: #d9d0ba;
+  padding: 2.5rem 0;
+  overflow: hidden;
 }
 
-.footer-logo-img {
-    display: block;
-    height: 310px;
-    width: auto;
-    margin: -115px -55px -115px -65px;
-    flex-shrink: 0;
+.site-footer--consistent .footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
 }
 
-.footer-heading {
-    color: #ffffff;
-    font-weight: 600;
-    font-size: 0.85rem;
-    letter-spacing: 0.4px;
-    margin-bottom: 0.45rem;
+.site-footer--consistent .footer-logo-frame {
+  position: relative;
+  flex: 0 0 172px;
+  height: 120px;
+  overflow: hidden;
 }
 
-.footer-text,
-.site-footer a {
-    color: #d9d0ba;
-    font-weight: 300;
-    font-size: 0.9rem;
-    line-height: 1.6;
-    text-decoration: none;
+.site-footer--consistent .footer-logo-img {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  max-width: none;
+  height: 310px;
+  margin: 0;
+  transform: translate(-50%, -50%);
 }
 
-.site-footer a:hover,
-.site-footer a:focus {
-    color: #ffffff;
-    text-decoration: underline;
+.site-footer--consistent .footer-brand-copy {
+  flex: 1;
+  min-width: 0;
 }
 
-/* Index Page Helpers */
-.hero-section {
-  min-height: 440px;
-}
-
-.hero-section h1, .hero-section .h1 {
+.site-footer--consistent .footer-heading {
   color: #ffffff;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  margin-bottom: 0.45rem;
+}
+
+.site-footer--consistent .footer-text,
+.site-footer--consistent a {
+  color: #d9d0ba;
+  font-size: 0.9rem;
+  font-weight: 300;
+  line-height: 1.6;
+  text-decoration: none;
+}
+
+.site-footer--consistent a:hover,
+.site-footer--consistent a:focus-visible {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.products-page .site-footer--consistent {
+  margin-top: 0;
+}
+
+@media (max-width: 767px) {
+  .site-footer--consistent .footer-logo-frame {
+    flex-basis: 102px;
+    height: 105px;
+  }
 }
 
 .hero-overlay {
