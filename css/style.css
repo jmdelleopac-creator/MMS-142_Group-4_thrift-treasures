@@ -12590,7 +12590,44 @@ h1, .h1,
 .details-list li {
   margin-bottom: 0.2rem;
 }
+ .site-footer {
+    background-color: #615341;
+    color: #d9d0ba;
+    margin-top: 4.5rem;
+    padding: 2.5rem 0;
+    overflow: hidden;
+}
 
+.footer-logo-img {
+    display: block;
+    height: 310px;
+    width: auto;
+    margin: -115px -55px -115px -65px;
+    flex-shrink: 0;
+}
+
+.footer-heading {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 0.85rem;
+    letter-spacing: 0.4px;
+    margin-bottom: 0.45rem;
+}
+
+.footer-text,
+.site-footer a {
+    color: #d9d0ba;
+    font-weight: 300;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    text-decoration: none;
+}
+
+.site-footer a:hover,
+.site-footer a:focus {
+    color: #ffffff;
+    text-decoration: underline;
+}
 
 .site-footer--consistent {
   background-color: #615341;
@@ -12664,6 +12701,14 @@ h1, .h1,
   }
 }
 
+.hero-section {
+    min-height: 440px;
+}
+
+.hero-section h1,
+.hero-section .h1 {
+    color: #ffffff;
+}
 .hero-overlay {
   background: rgba(0, 0, 0, 0.25);
 }
